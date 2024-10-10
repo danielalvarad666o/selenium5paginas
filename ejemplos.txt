@@ -1,0 +1,88 @@
+[
+    {
+        "url": "https://dolarenmexico.com/",
+        "acciones": [
+            {
+                "buscar": "table",
+                "propiedad": "id:Tabla1",
+                "exel": "dolarenmexico_tabla1"
+            },
+            {
+                "buscar": "table",
+                "propiedad": "id:Tabla2",
+                "exel": "dolarenmexico_tabla2"
+            }
+        ]
+    },
+    {
+        "url": "https://example.com/login",
+        "acciones": [
+            {
+                "formulario": {
+                    "selector": "form#loginForm",
+                    "campos": [
+                        {
+                            "campo": "username",
+                            "valor": "usuario123"
+                        },
+                        {
+                            "campo": "password",
+                            "valor": "clave123"
+                        }
+                    ],
+                    "boton_envio": "button[@type='submit']"
+                }
+            },
+            {
+                "selector": "a[@href='/dashboard']"
+            },
+            {
+                "buscar": "table",
+                "propiedad": "class:dataTable",
+                "exel": "example_login_data"
+            }
+        ]
+    },
+    {
+        "url": "https://example.com/preferences",
+        "acciones": [
+            {
+                "formulario": {
+                    "selector": "form#preferencesForm",
+                    "campos": [
+                        {
+                            "campo": "email_notifications",
+                            "valor": "true",
+                            "tipo": "checkbox"
+                        },
+                        {
+                            "campo": "sms_notifications",
+                            "valor": "false",
+                            "tipo": "checkbox"
+                        }
+                    ],
+                    "boton_envio": "button[@type='submit']"
+                }
+            },
+            {
+                "selector": "a[@href='/dashboard']"
+            }
+        ]
+    },
+    {
+        "url": "https://example.com/pagination",
+        "acciones": [
+            {
+                "buscar": "table",
+                "propiedad": "class:dataTable",
+                "exel": "example_pagination_data"
+            },
+            {
+                "paginacion": {
+                    "xpath_pagina_siguiente": "//li[contains(@class, 'page-next')]/a",
+                    "numero_maximo_paginas": 5
+                }
+            }
+        ]
+    }
+]

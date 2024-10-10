@@ -1,0 +1,288 @@
+[
+    {
+        "url": "https://www.tecnm.mx/?vista=Asignaturas_test",
+        "acciones": [
+            {
+                "formulario": {
+                    "selector": "form[action='?vista=Asignaturas_test'][method='POST']",
+                    "campos": [{"campo":"registros","valor":"100"},
+                        {
+                            "campo": "asignatura",
+                            "valor": "Automatización"
+                        }
+                      
+                    ]
+                }
+            },
+            {
+                "buscar": "div",
+                "propiedad": "class:row mx-auto border border-primary d-flex mb-3 mb-xl-0 d-flex",
+                "exel": "Automatización",
+                "extraer": [
+                    {
+                        "selector": "div.col-12.col-xl-1",
+                        "campo": "Programa Educativo"
+                    },
+                    {
+                        "selector": "div.col-12.col-xl",
+                        "campo": "Asignatura"
+                    },
+                    {
+                        "selector": "div.col-12.col-xl:nth-child(3)",
+                        "campo": "Tema"
+                    },
+                    {
+                        "selector": "div.col-12.col-xl-1:nth-child(4) a",
+                        "campo": "Sitio",
+                        "atributo": "href"
+                    },
+                    {
+                        "selector": "div.col-12.col-xl:nth-child(5) a",
+                        "campo": "Enlace directo",
+                        "atributo": "href"
+                    },
+                    {
+                        "selector": "div.col-12.col-xl:nth-child(6)",
+                        "campo": "Alcance"
+                    }
+                ]
+            },
+            {
+                "formulario": {
+                    "selector": "form[action='?vista=Asignaturas_test'][method='POST']",
+                    "campos": [
+                        {
+                            "campo": "asignatura",
+                            "valor": "Álgebra lineal"
+                        }
+                    ]
+                }
+            },
+            {
+                "buscar": "div",
+                "propiedad": "class:row mx-auto border border-primary d-flex mb-3 mb-xl-0 d-flex",
+                "exel": "Álgebra lineal",
+                "extraer": [
+                    {
+                        "selector": "div.col-12.col-xl-1",
+                        "campo": "Programa Educativo"
+                    },
+                    {
+                        "selector": "div.col-12.col-xl",
+                        "campo": "Asignatura"
+                    },
+                    {
+                        "selector": "div.col-12.col-xl:nth-child(3)",
+                        "campo": "Tema"
+                    },
+                    {
+                        "selector": "div.col-12.col-xl-1:nth-child(4) a",
+                        "campo": "Sitio",
+                        "atributo": "href"
+                    },
+                    {
+                        "selector": "div.col-12.col-xl:nth-child(5) a",
+                        "campo": "Enlace directo",
+                        "atributo": "href"
+                    },
+                    {
+                        "selector": "div.col-12.col-xl:nth-child(6)",
+                        "campo": "Alcance"
+                    }
+                ]
+            },
+            {
+                "formulario": {
+                    "selector": "form[action='?vista=Asignaturas_test'][method='POST']",
+                    "campos": [
+                        {"campo":"registros","valor":"100"},
+                        {
+                            "campo": "asignatura",
+                            "valor": "Agroclimatología"
+                        }
+                    ]
+                }
+            },
+            {
+                "buscar": "div",
+                "propiedad": "class:row mx-auto border border-primary d-flex mb-3 mb-xl-0 d-flex",
+                "exel": "Agroclimatología",
+                "extraer": [
+                    {
+                        "selector": "div.col-12.col-xl-1",
+                        "campo": "Programa Educativo"
+                    },
+                    {
+                        "selector": "div.col-12.col-xl",
+                        "campo": "Asignatura"
+                    },
+                    {
+                        "selector": "div.col-12.col-xl:nth-child(3)",
+                        "campo": "Tema"
+                    },
+                    {
+                        "selector": "div.col-12.col-xl-1:nth-child(4) a",
+                        "campo": "Sitio",
+                        "atributo": "href"
+                    },
+                    {
+                        "selector": "div.col-12.col-xl:nth-child(5) a",
+                        "campo": "Enlace directo",
+                        "atributo": "href"
+                    },
+                    {
+                        "selector": "div.col-12.col-xl:nth-child(6)",
+                        "campo": "Alcance"
+                    }
+                ]
+            },
+            {
+                "formulario": {
+                    "selector": "form[action='?vista=Asignaturas_test'][method='POST']",
+                    "campos": [{"campo":"registros","valor":"100"},
+                        {
+                            "campo": "asignatura",
+                            "valor": "Amplificadores Operacionales"
+                        }
+                    ]
+                }
+            },
+            {
+                "buscar": "div",
+                "propiedad": "class:row mx-auto border border-primary d-flex mb-3 mb-xl-0 d-flex",
+                "exel": "Amplificadores_Operacionales",
+                "extraer": [
+                    {
+                        "selector": "div.col-12.col-xl-1",
+                        "campo": "Programa Educativo"
+                    },
+                    {
+                        "selector": "div.col-12.col-xl",
+                        "campo": "Asignatura"
+                    },
+                    {
+                        "selector": "div.col-12.col-xl:nth-child(3)",
+                        "campo": "Tema"
+                    },
+                    {
+                        "selector": "div.col-12.col-xl-1:nth-child(4) a",
+                        "campo": "Sitio",
+                        "atributo": "href"
+                    },
+                    {
+                        "selector": "div.col-12.col-xl:nth-child(5) a",
+                        "campo": "Enlace directo",
+                        "atributo": "href"
+                    },
+                    {
+                        "selector": "div.col-12.col-xl:nth-child(6)",
+                        "campo": "Alcance"
+                    }
+                ]
+            },
+            {
+                "formulario": {
+                    "selector": "form[action='?vista=Asignaturas_test'][method='POST']",
+                    "campos": [{"campo":"registros","valor":"100"},
+                        {
+                            "campo": "asignatura",
+                            "valor": "Automatización Industrial"
+                        }
+                    ]
+                }
+            },
+            {
+                "buscar": "div",
+                "propiedad": "class:row mx-auto border border-primary d-flex mb-3 mb-xl-0 d-flex",
+                "exel": "Automatización_Industrial",
+                "extraer": [
+                    {
+                        "selector": "div.col-12.col-xl-1",
+                        "campo": "Programa Educativo"
+                    },
+                    {
+                        "selector": "div.col-12.col-xl",
+                        "campo": "Asignatura"
+                    },
+                    {
+                        "selector": "div.col-12.col-xl:nth-child(3)",
+                        "campo": "Tema"
+                    },
+                    {
+                        "selector": "div.col-12.col-xl-1:nth-child(4) a",
+                        "campo": "Sitio",
+                        "atributo": "href"
+                    },
+                    {
+                        "selector": "div.col-12.col-xl:nth-child(5) a",
+                        "campo": "Enlace directo",
+                        "atributo": "href"
+                    },
+                    {
+                        "selector": "div.col-12.col-xl:nth-child(6)",
+                        "campo": "Alcance"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "url": "https://dolar.info/mexico/hoy/precio/",
+        "acciones": [
+            {
+                "buscar": "table",
+                "propiedad": "id:indextable",
+                "exel": "dolar"
+            }
+        ]
+    },
+    {
+        "url": "https://wise.com/mx/currency-converter/dolar-hoy",
+        "acciones": [
+            {
+                "buscar": "table",
+                "propiedad": "class:cc_table-hero_3621193474",
+                "exel": "wise"
+            }
+        ]
+    },
+    {
+        "url": "https://dolarenmexico.com/",
+        "acciones": [
+            {
+                "buscar": "table",
+                "exel": "dolarenmexico"
+            }
+        ]
+    },
+   
+    {
+        "url": "https://listado.mercadolibre.com.mx/luces#D[A:luces]",
+        "acciones": [
+            {
+                "buscar": "li",
+                "propiedad": "class:ui-search-layout__item",
+                "extraer": [
+                    {
+                        "campo": "titulo",
+                        "selector": "h2.ui-search-item__title"
+                    },
+                    {
+                        "campo": "precio",
+                        "selector": "span.andes-money-amount__fraction"
+                    },
+                    {
+                        "campo": "link",
+                        "selector": "a.ui-search-link",
+                        "atributo": "href"
+                    }
+                ],
+                "exel": "mercadolibre",
+                "paginacion": {
+                    "xpath_pagina_siguiente": "li[@class='andes-pagination__button andes-pagination__button--next']/a",
+                    "numero_maximo_paginas": 12
+                }
+            }
+        ]
+    }
+]
